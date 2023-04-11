@@ -1,0 +1,30 @@
+{
+    "name": "June",
+    "pfp": "memoji.jpg",
+    "links": [
+        {
+            "name":"Collectif DNS Witch",
+            "url":"https://dns-witch.eu.org/"
+        },
+        {
+            "name":"Energy Drink License",
+            "url":"https://github.com/june-coloc/EnergyDrink-license/blob/main/license.md"
+        },
+        {
+            "name":"Gitea",
+            "url":"https://labo.lacoloc.cafe/june"
+        },
+        {
+            "name":"Blog",
+            "url":"https://grimoire.eu.org/june"
+        },
+        {
+            "name":"Mastodon",
+            "url":"https://social.lacoloc.cafe/june"
+        },
+        {
+            "name":"Liberapay",
+            "url":"https://liberapay.com/juin_en_anglais/"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "11ty-ligilo",
   "version": "1.0.0",
-  "description": "",
+  "description": "All your links in one web page",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
@@ -9,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "June",
+  "license": "EnergyDrink License",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   }

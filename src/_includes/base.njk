@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <title>{{ user.name }} | ligilo</title>
+    <link rel="icon" href="img/pfp/{{ user.pfp }}" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <meta property="og:title" content="{{ user.name }} | ligilo">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/img/pfp/{{ user.pfp }}">
+    <meta property="og:description" content="One web page, to link them all">
+    <meta property="og:site_name" content="{{ user.name }}">
 </head>
 <body>
-    <header>
-        <h1>{{ title }}</h1>
-    </header>
-    <main>
+    <img id="userPhoto" src="/img/pfp/{{ user.pfp}}" alt="User Photo">
+    <a href="" id="userName">{{ user.name }}</a>
+    <div id="links">
         {{ content | safe }}
-    </main>
+    </div>
+    <footer>
+        Powered by <a href="https://11ty.dev">11ty</a> / <a href="">ligilo</a>
+    </footer>
 </body>
 </html>

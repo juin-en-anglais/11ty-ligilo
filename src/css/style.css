@@ -1,3 +1,100 @@
-body {
-    font-family: sans-serif;
+/* 
+    Color scheme based on my memoji
+*/
+
+:root {
+    --font-family: 'b612';
+    --font: 'b612', sans-serif;
+
+    --medium-champagne: #feecadff;
+    --eerie-black: #141416ff;
+    --bdazzled-blue: #3D5B90;
+    --royal-blue-dark: #001D60;
+}
+
+@font-face {
+    font-family: 'b612';
+    src: url('../fonts/b612-regular.ttf') format('truetype');
+}
+
+body{
+    background-color: var(--medium-champagne);
+    color: var(--royal-blue-dark);
+}
+
+footer{
+    text-align: center;
+
+    color:var(--eerie-black);
+
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+footer a {
+    color: var(--royal-blue-dark)
+}
+
+#userPhoto{
+    width: 96px;
+    height: 96px;
+
+    display: block;
+
+    margin: 35px auto 20px;
+
+    border-radius: 50%;
+    border: solid var(--bdazzled-blue) 2px;
+}
+
+#userName{
+    width: 100%;
+
+    color: var(--eerie-black);
+
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    text-align: center;
+    text-decoration: none;
+
+    line-height: 1.25;
+    display: block;
+}
+
+#links{
+    max-width: 675px;
+    width: auto;
+
+    display: block;
+
+    margin: 27px auto;
+}
+.link{
+    display: block;
+    margin-bottom: 20px;
+    padding: 17px;
+
+    background-color: var(--medium-champagne);
+    color:var(--royal-blue-dark);
+
+    font-family: var(--font);
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    border-radius: 5px;
+    border: solid var(--royal-blue-dark) 1px;
+
+    text-align: center;
+    text-decoration: none;
+    
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    
+}
+
+.link:hover{
+    background-color: var(--royal-blue-dark);
+    color: var(--medium-champagne);
 }

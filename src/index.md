@@ -1,5 +1,5 @@
 ---
-title: "June | ligilo"
+title: ligilo
 layout: base.njk
 templateEngineOverride: njk,md
 ---
