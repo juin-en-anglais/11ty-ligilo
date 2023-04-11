@@ -4,8 +4,9 @@ From the esperanto ```a tool to work with links```, ligilo is designed to list a
 
 ## How to use it?
 
-Ligilo works with 11ty. Just clone the repo and edit style.css & user.json to your needs.
-Run ```npm start``` for local test.
+Ligilo works with 11ty. Just clone the repo and edit ```style.css``` & ```user.json``` to your needs.
+
+Run ```npm start``` for local tests.
 
 ## Demo
 Live demo: https://phenomenal-babka-bf04d4.netlify.app/
