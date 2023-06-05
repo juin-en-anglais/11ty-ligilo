@@ -1,3 +1,7 @@
 {% for link in user.links %}
+    {% if link.name == "Mastodon" %}
+    <a class="link" rel="me" href="{{ link.url }}">{{ link.name }}</a>
+    {% else %}
     <a class="link" href="{{ link.url }}">{{ link.name }}</a>
+    {% endif %}
 {% endfor%}

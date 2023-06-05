@@ -3,8 +3,8 @@
     "pfp": "memoji.jpg",
     "links": [
         {
-            "name":"Collectif DNS Witch",
-            "url":"https://dns-witch.eu.org/"
+            "name":"DNS Witch",
+            "url":"https://dns-witch.net.eu.org/"
         },
         {
             "name":"Energy Drink License",
@@ -16,7 +16,7 @@
         },
         {
             "name":"Mastodon",
-            "url":"https://social.lacoloc.cafe/june"
+            "url":"https://problemes.eu.org/@june"
         },
         {
             "name":"Blog",
