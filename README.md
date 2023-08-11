@@ -9,4 +9,4 @@ Ligilo works with 11ty. Just clone the repo and edit ```style.css``` & ```user.j
 Run ```npm start``` for local tests.
 
 ## Demo
-Live demo: https://phenomenal-babka-bf04d4.netlify.app/
+Live demo: https://about.juin.eu.org
