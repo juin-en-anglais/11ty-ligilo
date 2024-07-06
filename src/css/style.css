@@ -14,7 +14,7 @@
     --eerie-black-memoji17: #242424;
     --pecan-brown-memoji17: #96643d;
     --celestial-blue-memoji17: #569fcc;
-}
+} 
 
 @font-face {
     font-family: 'b612';
@@ -22,7 +22,7 @@
 }
 
 body{
-    background-color: var(--medium-champagne);
+    background-color: var(--pale-gold-memoji17);
     color: var(--royal-blue-dark);
 }
 
@@ -81,7 +81,7 @@ footer a {
     margin-bottom: 20px;
     padding: 17px;
 
-    background-color: var(--medium-champagne);
+    background-color: var(--pale-gold-memoji17);
     color:var(--royal-blue-dark);
 
     font-family: var(--font);
@@ -100,5 +100,5 @@ footer a {
 
 .link:hover{
     background-color: var(--royal-blue-dark);
-    color: var(--medium-champagne);
+    color: var(--pale-gold-memoji17);
 }
