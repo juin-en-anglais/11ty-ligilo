@@ -1,7 +1,11 @@
 {
     "name": "June",
-    "pfp": "memoji.jpg",
+    "pfp": "memoji.jpeg",
     "links": [
+        {
+            "name":"TKT.lol",
+            "url":"https://tkt.lol/"
+        },
         {
             "name":"DNS Witch",
             "url":"https://dns-witch.net.eu.org/"
